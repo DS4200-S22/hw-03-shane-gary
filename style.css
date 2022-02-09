@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+}
+
+.header-title {
+  text-align: center;
+}
+
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.visualization {
+  width: 500px;
+  height: auto;
+  border: solid black 5px;
+  border-radius: 3px;
+}
+
+.visualization-image {
+  width: 500px;
+}
+
+.visualization-p {
+  height: 50px;
+}
+
+.shapes-flex {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+rect, circle {
+  fill: red;
+}
+rect:hover, circle:hover {
+  fill: blue;
+}
+
