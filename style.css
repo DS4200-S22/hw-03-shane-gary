@@ -27,20 +27,38 @@ body {
 
 .visualization-p {
   height: 50px;
+  padding: 0px 10px 50px 10px;
 }
 
 .shapes-flex {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-rect, circle {
-  fill: red;
-}
-rect:hover, circle:hover {
-  fill: blue;
+circle {
+  fill: deepskyblue;
 }
 
+rect {
+  fill: darkseagreen;
+}
+circle:hover {
+  fill: steelblue;
+}
+rect:hover {
+  fill: seagreen;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.acknowledgments {
+  text-align: center;
+}
